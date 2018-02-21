@@ -1,0 +1,3 @@
+v 0.0.1
+d Kyle Barron, barronk@mit.edu
+p 'stata-parquet': Read and write Parquet files from Stata
