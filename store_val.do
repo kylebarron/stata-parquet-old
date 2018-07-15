@@ -1,6 +1,9 @@
 * On Linux, compiled with:
 * gcc -shared -fPIC -DSYSTEM=OPUNIX stplugin.c store_val.c -o store_val.plugin
 
+* On Mac, compiled with:
+* gcc -bundle -DSYSTEM=APPLEMAC stplugin.c store_val.c -o store_val.plugin
+
 clear all
 
 cap program drop store_val
