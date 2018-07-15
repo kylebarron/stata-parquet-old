@@ -1,0 +1,14 @@
+name: stata-parquet
+channels:
+    - conda-forge
+dependencies:
+    - arrow-cpp
+    - parquet-cpp
+    - cmake
+    - git
+    - boost-cpp
+    - curl
+    - zlib
+    - snappy
+    - brotli
+    - thrift-cpp
